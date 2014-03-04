@@ -5,6 +5,14 @@ Starter kit for new Koa projects with Ember on client
 
 You will get basic project structure and basic grunt config for building/watching/compiling different things on project.
 
+### What is included?
+
+- Koa
+- Ember
+- ember-data
+- Mongoose
+- Bootstrap
+
 ### How to run?
 
 First ensure that you have ``node.js`` version with supported ES6 generators (with ``--harmony`` flag), and ensure that you have installed and running ``MongoDB`` instance.
