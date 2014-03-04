@@ -1,7 +1,7 @@
 koa-express-seed
 ================
 
-Starter project for new Koa projects with Ember on client
+Starter kit for new Koa projects with Ember on client
 
 You will get basic project structure and basic grunt config for building/watching/compiling different things on project.
 
