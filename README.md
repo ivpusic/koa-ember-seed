@@ -2,3 +2,22 @@ koa-express-seed
 ================
 
 Starter project for new Koa projects with Ember on client
+
+You will get basic project structure and basic grunt config for building/watching/compiling different things on project.
+
+### How to run?
+
+First ensure that you have node.js version with supported ES6 generators (with --harmony flag), and ensure that you have installed and running MongoDB instance.
+
+After that you can run following:
+
+```
+git clone git@github.com:ivpusic/koa-express-seed.git
+cd koa-express-seed
+npm install
+bower install
+grunt
+```
+
+You can go now to you browser and open ``127.0.0.1:3000`` and see results.
+
