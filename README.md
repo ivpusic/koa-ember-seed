@@ -12,6 +12,7 @@ You will get basic project structure and basic grunt config for building/watchin
 - ember-data
 - Mongoose
 - Bootstrap
+- Nice grunt configuration
 
 ### How to run?
 
