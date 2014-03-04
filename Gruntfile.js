@@ -4,10 +4,6 @@ var path = require('path');
 module.exports = function (grunt) {
 
 	require('load-grunt-tasks')(grunt);
-	grunt.loadNpmTasks('grunt-compile-handlebars');
-	grunt.loadNpmTasks('grunt-concurrent');
-	grunt.loadNpmTasks('grunt-contrib-less');
-	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),

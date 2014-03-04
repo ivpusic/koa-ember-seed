@@ -1,37 +1,55 @@
 {
-  "name": "bidding",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node --harmony app.js",
-    "test": "mocha --harmony"
-  },
+  "name": "koa-express-seed",
+  "version": "1.0.0",
+  "description": "Koa express seed",
+  "main": "Gruntfile.js",
   "dependencies": {
-    "koa": "~0.3.0",
-    "koa-logger": "~1.1.1",
-    "koa-static": "~1.4.2",
-    "koa-route": "~1.0.2",
-    "koa-compress": "~1.0.1",
-    "co-body": "0.0.1",
-    "koa-router": "~3.1.0",
-    "koa-common": "~1.2.0",
-    "mongodb": "~1.3.23",
     "bson": "~0.2.7",
+    "grunt": "~0.4.2",
+    "co-body": "~0.0.1",
+    "grunt-concurrent": "~0.4.3",
+    "grunt-compile-handlebars": "~0.6.3",
+    "grunt-contrib-handlebars": "~0.6.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-less": "~0.10.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-ember-handlebars": "~0.8.0",
+    "grunt-neuter": "~0.6.0",
+    "grunt-nodemon": "~0.2.0",
+    "koa": "~0.3.0",
+    "koa-common": "~1.2.0",
+    "koa-compress": "~1.0.3",
+    "koa-logger": "~1.1.1",
+    "koa-route": "~1.0.2",
+    "koa-router": "~3.1.0",
+    "koa-static": "~1.4.3",
+    "load-grunt-tasks": "~0.4.0",
+    "mongodb": "~1.3.23",
+    "mongoose": "~3.8.8",
     "q": "~1.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.17.0",
-    "grunt": "~0.4.2",
-    "grunt-contrib-less": "~0.10.0",
-    "grunt-contrib-handlebars": "~0.6.1",
-    "load-grunt-tasks": "~0.4.0",
-    "grunt-ember-handlebars": "~0.8.0",
-    "grunt-nodemon": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-concurrent": "~0.4.3",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-neuter": "~0.6.0",
-    "grunt-compile-handlebars": "~0.6.3",
-    "mongoose": "~3.8.8"
-  }
+    "mocha": "~1.17.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivpusic/koa-express-seed.git"
+  },
+  "keywords": [
+    "koa",
+    "express",
+    "seed",
+    "boilerplate",
+    "starter",
+    "project"
+  ],
+  "author": "Ivan Pusic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivpusic/koa-express-seed/issues"
+  },
+  "homepage": "https://github.com/ivpusic/koa-express-seed"
 }
