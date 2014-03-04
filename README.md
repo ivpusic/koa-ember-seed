@@ -1,4 +1,4 @@
-koa-express-seed
+koa-ember-seed
 ================
 
 Starter kit for new Koa projects with Ember on client
@@ -21,12 +21,11 @@ First ensure that you have ``node.js`` version with supported ES6 generators (wi
 After that you can run following:
 
 ```
-git clone git@github.com:ivpusic/koa-express-seed.git
-cd koa-express-seed
+git clone git@github.com:ivpusic/koa-ember-seed.git
+cd koa-ember-seed
 npm install
 bower install
 grunt
 ```
 
-You can go now to you browser and open ``127.0.0.1:3000`` and see results.
-
+You can go now to you browser and open ``127.0.0.1:3000`` to see results.
