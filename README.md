@@ -7,7 +7,7 @@ You will get basic project structure and basic grunt config for building/watchin
 
 ### How to run?
 
-First ensure that you have node.js version with supported ES6 generators (with --harmony flag), and ensure that you have installed and running MongoDB instance.
+First ensure that you have ``node.js`` version with supported ES6 generators (with ``--harmony`` flag), and ensure that you have installed and running ``MongoDB`` instance.
 
 After that you can run following:
 
