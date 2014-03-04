@@ -1,0 +1,8 @@
+{
+  "verbose": true,
+  "ignore": [],
+  "execMap": {
+    "js": "node --harmony",
+    "rb": "ruby"
+  }
+}
