@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 						var pieces = filePath.split('/');
 						return pieces[pieces.length - 1].split('.')[0];
 					},
-					processPartialName: function (filePath) { 
+					processPartialName: function (filePath) {
 						var pieces = filePath.split('/');
 						return pieces[pieces.length - 1].split('.')[0];
 					}
@@ -93,7 +93,7 @@ module.exports = function (grunt) {
 		concat: {
 			'dev_vendor_js': {
 				src: [
-					'bower_components/jquery/jquery.js',
+					'bower_components/jquery/dist/jquery.js',
 					'bower_components/bootstrap/dist/js/bootstrap.js',
 					'bower_components/handlebars/handlebars.runtime.js',
 					'bower_components/ember/ember.js',
